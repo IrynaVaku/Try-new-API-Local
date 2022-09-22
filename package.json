@@ -1,0 +1,33 @@
+{
+  "name": "try-new-api-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --config .mocharc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaVaku/Try-new-API-Local.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaVaku/Try-new-API-Local/issues"
+  },
+  "homepage": "https://github.com/IrynaVaku/Try-new-API-Local#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/register": "^7.18.9",
+    "dotenv": "^16.0.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4"
+  }
+}
